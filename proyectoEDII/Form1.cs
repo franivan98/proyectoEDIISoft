@@ -70,12 +70,12 @@ namespace proyectoEDII
 
         private void btnEncender_Click(object sender, EventArgs e)
         {
-            puertoSalida.Write("E");
+            puertoSalida.Write("L");
         }
 
         private void btnApagar_Click(object sender, EventArgs e)
         {
-            puertoSalida.Write("F");
+            puertoSalida.Write("M");
         }
 
         private void btnEmergencia_Click(object sender, EventArgs e)
